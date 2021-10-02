@@ -6,8 +6,6 @@ The button is really not necessary, but it's a nice proof of concept.
 
 **Problems:**
 
-- `Brain.Screen.newLine()` is annoying, I wish I can just use `\n`.
-
 - Cannot properly round `double` that is returned with battery `voltage()` and `current()`.
   It currently shows six decimals; hence, I would like to round it down.
   However, I don't understand the decimal types well enough.
