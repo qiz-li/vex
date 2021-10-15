@@ -9,7 +9,7 @@ int main()
   // Initialize robot config
   vexcodeInit();
 
-  // Raise are so it is not stuck in hoop
+  // Raise arm so it does not get stuck in hoop
   Arm.spinFor(forward, 50, degrees);
 
   Drivetrain.driveFor(forward, 1000, mm);
